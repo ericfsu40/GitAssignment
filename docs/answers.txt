@@ -1,0 +1,33 @@
+(a) $ git status
+    On branch master
+    Your branch is up-to-date with 'origin/master'.
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+
+            .idea/
+            GitAssignment.iml
+            out/
+
+    nothing added to commit but untracked files present (use "git add" to track)
+
+(b) 12
+    git rev-qlist --count HEAD
+
+(c) Thu Sep 15 10:29:34 2016
+    git log .gitignore
+
+(d) Sword and RoleGame are each modified once and everything else in source is only added or moved
+    git whatchanged
+
+(e) git log shows a list of the commit logs including the messages left with the commits,
+    git status shows the paths that have differences between your local copy of the branch
+    and the one on github, it also shows the differences if you were to run git add before
+    commiting.
+
+(f) $ git log --follow src/edu/fsu/cs/cen4021/RoleGame.java
+
+(g) $ git log --grep="file"
+
+(h) $ git log --after="2016-09-01" --before="2016-09-16" --author="Alice"
+
+
