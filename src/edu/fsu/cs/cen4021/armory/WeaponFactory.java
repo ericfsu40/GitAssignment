@@ -22,6 +22,10 @@ public class WeaponFactory {
                 return new SimpleMagicStaff();
             case "TheChosenOneAxe":
                 return new TheChosenOneAxe();
+            case "AncientMagicStaff":
+                return new AncientMagicStaff();
+            case "WebRitualArrow":
+                return new WebRitualArrow();
             default:
                 throw new IllegalArgumentException("Invalid type");
         }

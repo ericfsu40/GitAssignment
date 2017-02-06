@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * @author Javier
+ * @author Eric Mustapick
  */
 class TheChosenOneAxe implements Weapon {
     int DAMAGE;
@@ -35,7 +35,7 @@ class TheChosenOneAxe implements Weapon {
             while((line = bufferedReader.readLine()) != null){
                 DAMAGE ++;
                 if(!(line.equals(first))){
-                    System.out.print(line);
+                    //System.out.print(line);
                     return;
                 }
             }
